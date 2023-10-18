@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 class VeiculoTest {
   @Test
-  @DisplayName("1 - Calcular consumo combustível do Carro")
+  @DisplayName("1 - Calcular o consumo de combustível do Carro")
   void testCalcularConsumoCombustivelCarro() {
     Carro carro = new Carro("Ford", "Fiesta", 2021, "Gasolina", 40, 5);
     double consumo = carro.calcularConsumoCombustivel(100);
@@ -15,7 +15,7 @@ class VeiculoTest {
   }
 
   @Test
-  @DisplayName("2 - Calcular consumo combustível do Caminhão")
+  @DisplayName("2 - Calcular o consumo de combustível do Caminhão")
   void testCalcularConsumoCombustivelCaminhao() {
     Caminhao caminhao = new Caminhao("Mercedes", "Actros", 2021, "Diesel", 300, 20000);
     double consumo = caminhao.calcularConsumoCombustivel(100);
@@ -23,7 +23,7 @@ class VeiculoTest {
   }
 
   @Test
-  @DisplayName("3 - Calcular consumo combustível da Moto")
+  @DisplayName("3 - Calcular o consumo de combustível da Moto")
   void testCalcularConsumoCombustivelMoto() {
     Moto moto = new Moto("Honda", "CBR500R", 2021, "Gasolina", 17, "Esportiva");
     double consumo = moto.calcularConsumoCombustivel(100);
