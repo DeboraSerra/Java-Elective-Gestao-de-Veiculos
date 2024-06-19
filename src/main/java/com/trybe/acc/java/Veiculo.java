@@ -6,8 +6,8 @@ package com.trybe.acc.java;
 
 public interface Veiculo {
 
-  /**
-   * Atributos e Métodos.
-   */
+  double calcularConsumoCombustivel(double distancia);
+
+  void exibirInformacoes();
 
 }
